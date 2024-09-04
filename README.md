@@ -350,7 +350,7 @@ class AuthenticationMiddleware implements MiddlewareInterface
 Then
 
 ```php
-$harmony->addMiddleware(new AuthenticationMiddleware("123"), new Response());
+$harmony->addMiddleware(new AuthenticationMiddleware("123", new Response()));
 ```
 
 ### Defining conditions
